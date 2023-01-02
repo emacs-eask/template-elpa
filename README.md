@@ -2,7 +2,11 @@ This project was bootstrapped with [eask/cli](https://github.com/emacs-eask/cli)
 
 ## How to use?
 
-1. Add 
+1. Add any recipes to “recipes” directory like:
+
+```elisp
+(package-name :fecher github :repo "username/yourpackage.el")
+```
 
 ## Available Scripts
 
