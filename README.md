@@ -4,9 +4,29 @@ This project was bootstrapped with [eask/cli](https://github.com/emacs-eask/cli)
 
 1. Add any recipes to “recipes” directory like:
 
-```elisp
-(package-name :fecher github :repo "username/yourpackage.el")
-```
+  ```elisp
+  (package-name :fecher github :repo "username/yourpackage.el")
+  ```
+
+2. Prepare to build, this step will install all dependenices before building ELPA:
+
+  ```sh
+  eask install
+  ```
+
+3. Build archives:
+
+  ```sh
+  eask run build
+  ```
+
+Regularly, you would want to use:
+
+  ```sh
+  eask run update
+  ```
+
+This will commit your archives to git repository!
 
 ## Available Scripts
 
