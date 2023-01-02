@@ -1,6 +1,9 @@
 # Compiled
 *.elc
 
+# ignore log files
+/.log
+
 # Packaging
 .cask
 .eask
@@ -10,6 +13,3 @@
 
 # Cask repository
 cask-repository/
-
-# log
-.log
