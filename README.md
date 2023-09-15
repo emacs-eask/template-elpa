@@ -19,13 +19,13 @@ This project was bootstrapped with [eask/cli](https://github.com/emacs-eask/cli)
 3. Build archives:
 
   ```sh
-  eask run build
+  eask exec github-elpa build
   ```
 
 Regularly, you would want to use:
 
   ```sh
-  eask run update
+  eask exec github-elpa update -a "./docs/packages"
   ```
 
 This will commit your archives to git repository!
