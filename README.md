@@ -8,6 +8,8 @@ This project was bootstrapped with [eask/cli](https://github.com/emacs-eask/cli)
   (package-name :fecher github :repo "username/yourpackage.el")
   ```
 
+*P.S. See [Recipe Format](https://github.com/melpa/melpa#recipe-format) for more information about the recipe!*
+
 2. Prepare to build, this step will install all dependenices before building ELPA:
 
   ```sh
