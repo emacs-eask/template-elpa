@@ -11,7 +11,7 @@ This project was bootstrapped with [eask/cli](https://github.com/emacs-eask/cli)
 2. Prepare to build, this step will install all dependenices before building ELPA:
 
   ```sh
-  eask install
+  eask install-deps
   ```
 
 3. Build archives:
