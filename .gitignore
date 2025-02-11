@@ -13,3 +13,6 @@
 
 # Cask repository
 cask-repository/
+
+# OS generated
+.DS_Store
